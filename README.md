@@ -21,7 +21,7 @@ Then, add the plugin to your `.bigchaindb` configuration:
     "server": { ... },
     "wsserver": { ... },
     ...
-    "block_publishers": ["console_print"]
+    "events_plugins": ["console_print"]
     ...
 }
 ```
